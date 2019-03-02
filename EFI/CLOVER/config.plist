@@ -112,6 +112,34 @@
 					SUdQVQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change TPAD to XPAD</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					VFBBRA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBBRA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _OSI to XOSI </string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X09TSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE9TSQ==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
@@ -325,7 +353,7 @@
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
 		</array>
 		<key>KernelLapic</key>
-		<true/>
+		<false/>
 		<key>KernelPm</key>
 		<true/>
 		<key>KernelToPatch</key>
@@ -361,6 +389,8 @@
 				</data>
 			</dict>
 		</array>
+		<key>KernelXCPM</key>
+		<true/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
@@ -439,6 +469,42 @@
 				<key>Replace</key>
 				<data>
 				g/s/Dw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SU9LaXQ=
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2C</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SU9LaXQ=
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2CController</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
 				</data>
 			</dict>
 		</array>
