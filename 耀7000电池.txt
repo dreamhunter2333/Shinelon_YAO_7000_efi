@@ -1,0 +1,71 @@
+# created by jinmu333
+#炫龙耀7000
+
+# add method B1B2 
+into method label B1B2 remove_entry;
+into definitionblock code_regex . insert
+begin
+Method (B1B2, 2, NotSerialized)\n
+{\n
+Return(Or(Arg0, ShiftLeft(Arg1, 8)))\n
+}\n
+end;
+
+
+# patch battery status        //为电池状态补丁
+
+# 拆分16位属性
+# 大于32位的不需要拆
+into device label EC0 code_regex XIF0,\s+16, replace_matched begin X0IF,8,X1IF,8, end;
+into device label EC0 code_regex XIF1,\s+16, replace_matched begin X2IF,8,X3IF,8, end;
+into device label EC0 code_regex XIF2,\s+16, replace_matched begin X4IF,8,X5IF,8, end;
+into device label EC0 code_regex XIF3,\s+16, replace_matched begin X6IF,8,X7IF,8, end;
+into device label EC0 code_regex XIF4,\s+16, replace_matched begin X8IF,8,X9IF,8, end;
+into device label EC0 code_regex XIF5,\s+16, replace_matched begin XI0F,8,XI1F,8, end;
+into device label EC0 code_regex XIF6,\s+16, replace_matched begin XI2F,8,XI3F,8, end;
+into device label EC0 code_regex XIF7,\s+16, replace_matched begin XI4F,8,XI5F,8, end;
+into device label EC0 code_regex XIF8,\s+16, replace_matched begin XI6F,8,XI7F,8, end;
+
+into device label EC0 code_regex XST0,\s+16, replace_matched begin X0ST,8,X1ST,8, end;
+into device label EC0 code_regex XST1,\s+16, replace_matched begin X2ST,8,X3ST,8, end;
+into device label EC0 code_regex XST2,\s+16, replace_matched begin X4ST,8,X5ST,8, end;
+into device label EC0 code_regex XST3,\s+16, replace_matched begin X6ST,8,X7ST,8, end;
+
+into device label EC0 code_regex XTP0,\s+16, replace_matched begin X0TP,8,X1TP,8, end;
+
+into device label EC0 code_regex SLUX,\s+16, replace_matched begin S0LU,8,S1LU,8, end;
+
+into device label EC0 code_regex CYCN,\s+16, replace_matched begin C0YC,8,C1YC,8, end;
+
+into device label EC0 code_regex BIF0,\s+16, replace_matched begin B0IF,8,B1IF,8, end;
+into device label EC0 code_regex BIF1,\s+16, replace_matched begin B2IF,8,B3IF,8, end;
+into device label EC0 code_regex BIF3,\s+16, replace_matched begin B4IF,8,B5IF,8, end;
+into device label EC0 code_regex BIF4,\s+16, replace_matched begin B6IF,8,B7IF,8, end;
+into device label EC0 code_regex BIF5,\s+16, replace_matched begin B8IF,8,B9IF,8, end;
+into device label EC0 code_regex BIF6,\s+16, replace_matched begin BI0F,8,BI1F,8, end;
+into device label EC0 code_regex BIF7,\s+16, replace_matched begin BI2F,8,BI3F,8, end;
+into device label EC0 code_regex BIF8,\s+16, replace_matched begin BI4F,8,BI5F,8, end;
+
+into device label EC0 code_regex BST0,\s+16, replace_matched begin B0ST,8,B1ST,8, end;
+into device label EC0 code_regex BST1,\s+16, replace_matched begin B2ST,8,B3ST,8, end;
+into device label EC0 code_regex BST2,\s+16, replace_matched begin B4ST,8,B5ST,8, end;
+into device label EC0 code_regex BST3,\s+16, replace_matched begin B6ST,8,B7ST,8, end;
+
+into device label EC0 code_regex BTP0,\s+16, replace_matched begin B0TP,8,B1TP,8, end;
+
+
+
+# 访问16位属性
+into method label ECBE code_regex \(\^\^PCI0.LPCB.EC0.XIF1 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.X2IF, PCI0.LPCB.EC0.X3IF) end;
+into method label _BST code_regex \(\^\^PCI0.LPCB.EC0.XIF1 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.X2IF, PCI0.LPCB.EC0.X3IF) end;
+into method label ECBE code_regex \(\^\^PCI0.LPCB.EC0.XIF2 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.X4IF, PCI0.LPCB.EC0.X5IF) end;
+into method label _BST code_regex \^\^PCI0.LPCB.EC0.XIF2 replaceall_matched begin ^^B1B2(PCI0.LPCB.EC0.X4IF, PCI0.LPCB.EC0.X5IF) end;
+into method label ECBE code_regex \(\^\^PCI0.LPCB.EC0.XIF3 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.X6IF, PCI0.LPCB.EC0.X7IF) end;
+into method label ECBE code_regex \(\^\^PCI0.LPCB.EC0.XIF4 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.X8IF, PCI0.LPCB.EC0.X9IF) end;
+into method label ECBE code_regex \(\^\^PCI0.LPCB.EC0.XIF7 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.XI4F, PCI0.LPCB.EC0.XI5F) end;
+into method label _BST code_regex \(\^\^PCI0.LPCB.EC0.XST0 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.X0ST, PCI0.LPCB.EC0.X1ST) end;
+into method label _BST code_regex \(\^\^PCI0.LPCB.EC0.XST1 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.X2ST, PCI0.LPCB.EC0.X3ST) end;
+into method label _BST code_regex \(\^\^PCI0.LPCB.EC0.XST2 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.X4ST, PCI0.LPCB.EC0.X5ST) end;
+into method label _BST code_regex \(\^\^PCI0.LPCB.EC0.XST3 replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.X6ST, PCI0.LPCB.EC0.X7ST) end;
+into method label ECBE code_regex \(\^\^PCI0.LPCB.EC0.CYCN replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.C0YC, PCI0.LPCB.EC0.C1YC) end;
+into method label _BST code_regex \(\^\^PCI0.LPCB.EC0.CYCN replaceall_matched begin (^^B1B2(PCI0.LPCB.EC0.C0YC, PCI0.LPCB.EC0.C1YC) end;
