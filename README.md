@@ -1,4 +1,6 @@
-# Shinalon_YAO_7000_efi
+# Shinalon_YAO_7000_efi 
+
+# 炫龙 耀7000 EFI 黑苹果
 
 ### CPU: I5-8300H 
 
