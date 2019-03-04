@@ -227,6 +227,8 @@
 			</array>
 		</dict>
 		<key>FixHeaders</key>
+		<true/>
+		<key>FixMCFG</key>
 		<false/>
 		<key>SSDT</key>
 		<dict>
@@ -246,7 +248,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>igfxcflbklt=force -v</string>
+		<string>-v igfxcflbklt=force</string>
 		<key>DefaultVolume</key>
 		<string>macos</string>
 		<key>Legacy</key>
@@ -254,9 +256,9 @@
 		<key>Log</key>
 		<false/>
 		<key>NeverHibernate</key>
-		<false/>
-		<key>NoEarlyProgress</key>
 		<true/>
+		<key>NoEarlyProgress</key>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
@@ -324,7 +326,7 @@
 			<key>Inject</key>
 			<integer>8</integer>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -355,7 +357,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -386,6 +388,8 @@
 			<string>Preboot</string>
 			<string>Recovery</string>
 		</array>
+		<key>Language</key>
+		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -402,8 +406,10 @@
 			<key>Tool</key>
 			<false/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Xiaomi</string>
+		<string>Mojave</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -435,7 +441,7 @@
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
 		</array>
 		<key>KernelLapic</key>
-		<false/>
+		<true/>
 		<key>KernelPm</key>
 		<true/>
 		<key>KernelToPatch</key>
@@ -472,7 +478,7 @@
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
-		<true/>
+		<false/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
