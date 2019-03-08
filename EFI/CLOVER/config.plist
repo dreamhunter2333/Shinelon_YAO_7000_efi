@@ -118,7 +118,7 @@
 					<key>Comment</key>
 					<string>change _Q0E to XQ0E, optionally pair with SSDT-Fn.aml</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1EwRQ==
@@ -132,7 +132,7 @@
 					<key>Comment</key>
 					<string>change _Q0F to XQ0F, optionally pair with SSDT-Fn.aml</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1EwRg==
@@ -298,6 +298,34 @@
 					<key>Replace</key>
 					<data>
 					SU1FSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _Q11 to _XQ11</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _Q12 to _XQ12</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMg==
 					</data>
 				</dict>
 			</array>
