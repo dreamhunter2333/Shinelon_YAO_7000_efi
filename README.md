@@ -10,9 +10,9 @@
 
 ### 电池hotpatch补丁正常
 
-### 内置网卡无解
+### 内置网卡无解(已更换DW1560)
 
-### 触摸板未驱动
+### 触摸板由[penghubingzhou](https://github.com/penghubingzhou)大佬驱动
 
 ### 亮度可调(重启不保存)
 

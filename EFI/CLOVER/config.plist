@@ -116,6 +116,34 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>change TPAD to XPAD</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					VFBBRA==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBBRA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _OSI to XOSI </string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X09TSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE9TSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change _Q0E to XQ0E, optionally pair with SSDT-Fn.aml</string>
 					<key>Disabled</key>
 					<false/>
@@ -140,52 +168,6 @@
 					<key>Replace</key>
 					<data>
 					WFEwRg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _STA to XSTA in GPI0  </string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1NUQQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					R1BJMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _OSI to XOSI </string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X09TSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WE9TSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change TPAD to XPAD</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					VFBBRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFBBRA==
 					</data>
 				</dict>
 				<dict>
@@ -326,6 +308,38 @@
 					<key>Replace</key>
 					<data>
 					WFExMg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _DSM to XDSM</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X0RTTQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WERTTQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change SBFI to SBFX</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					U0JGSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					U0JGWA==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBBRA==
 					</data>
 				</dict>
 			</array>
