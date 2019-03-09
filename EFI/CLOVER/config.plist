@@ -116,16 +116,20 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change TPAD to XPAD</string>
+					<string>change _CRS to XCRS in TPAD</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
-					VFBBRA==
+					X0NSUw==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFBBRA==
+					WENSUw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBBRA==
 					</data>
 				</dict>
 				<dict>
@@ -326,16 +330,16 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change SBFI to SBFX</string>
+					<string>change SBFI to SBFS</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
-					U0JGSQ==
+					i1NCRkk=
 					</data>
 					<key>Replace</key>
 					<data>
-					U0JGWA==
+					i1NCRlM=
 					</data>
 					<key>TgtBridge</key>
 					<data>
