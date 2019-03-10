@@ -116,9 +116,27 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _CRS to XCRS in TPAD</string>
+					<string>change SBFI to SBFS</string>
 					<key>Disabled</key>
 					<false/>
+					<key>Find</key>
+					<data>
+					i1NCRkk=
+					</data>
+					<key>Replace</key>
+					<data>
+					i1NCRlM=
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBBRA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _CRS to XCRS in TPAD</string>
+					<key>Disabled</key>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0NSUw==
@@ -330,16 +348,16 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change SBFI to SBFS</string>
+					<string>Return_SBFS</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					i1NCRkk=
+					hFNCRkJTQkZJAA==
 					</data>
 					<key>Replace</key>
 					<data>
-					i1NCRlM=
+					hFNCRkJTQkZTAA==
 					</data>
 					<key>TgtBridge</key>
 					<data>
@@ -457,6 +475,13 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>layout-id</key>
+				<data>
+				CAAAAA==
+				</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
