@@ -12,7 +12,7 @@
 
 ### 内置网卡无解(已更换DW1560)
 
-### 触摸板由[@penghubingzhou](https://github.com/penghubingzhou)大佬驱动(远景触摸群群友[@xc2333](https://github.com/Xc2333))帮忙改成hotpatch)
+### 触摸板由[@penghubingzhou](https://github.com/penghubingzhou)大佬驱动(远景触摸群群友[@xc2333](https://github.com/Xc2333)帮忙改成hotpatch)
 
 ### 亮度可调(重启不保存)
 
