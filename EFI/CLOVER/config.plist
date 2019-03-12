@@ -388,7 +388,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>applbkl=0 -lilubetaall -alcbeta</string>
+		<string>applbkl=0 -lilubetaall -alcbeta -v</string>
 		<key>DefaultVolume</key>
 		<string>macos</string>
 		<key>Legacy</key>
