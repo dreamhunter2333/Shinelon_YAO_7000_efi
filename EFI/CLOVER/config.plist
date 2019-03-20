@@ -364,6 +364,20 @@
 					VFBBRA==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
@@ -388,7 +402,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>applbkl=0 -lilubetaall -alcbeta -v</string>
+		<string>applbkl=0 -lilubetaall -alcbeta</string>
 		<key>DefaultVolume</key>
 		<string>macos</string>
 		<key>Legacy</key>
