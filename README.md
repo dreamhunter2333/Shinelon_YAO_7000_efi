@@ -36,7 +36,7 @@
 * USB遮盖采用`Hackintool`生成`SSDT-UIAC.aml, SSDT-USBX.aml `，它位于`/CLOVER/ACPI/patched`
 * 其它 `ACPI` 补丁修复采用 `hotpatch` 方式，文件位于 `/CLOVER/ACPI/patched`
 * 电池hotpatch补丁显示电池状态正常
-* 触摸板手势正常
+* 触摸板4指手势正常
 * fn键可用5个功能 num键(部分情况可用 如终端)可用 
 
 ### 系统截图
@@ -50,6 +50,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master
 ### 内置网卡无解 
 [dw1560驱动教程](https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html) [rehanman-OS-X-BrcmPatchRAM](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/) [rehanman-OS-X-Fake-PCI-ID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/) [acidanthera-AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)
 
-### camera.sh用于睡眠后重新开启摄像头 huancun.ch用于重建缓存 (需要时终端执行)
+### sh文件夹下camera.sh用于睡眠后重新开启摄像头 huancun.ch用于重建缓存 (需要时终端执行)
 
 ### 触摸板由[@penghubingzhou](https://github.com/penghubingzhou)大佬驱动(远景触摸群群友[@xc2333](https://github.com/Xc2333)帮忙改成hotpatch)
