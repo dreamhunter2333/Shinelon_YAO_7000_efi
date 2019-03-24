@@ -31,15 +31,13 @@
 * 睡眠唤醒正常
 * 显卡原生支持，采用`Lilu+WhateverGreen`通过`Clover/device/Properties`方式注入
 * 声卡为ALC269VC，使用 `AppleALC` ，layout-id:8，通过`Clover/device/Properties`方式注入
-* 无线网卡更换为bcm94352zae
+* 无线网卡更换为bcm94352zae(驱动教程在后面)
 * 显示器亮度调节正常(重启可保存) 
 * USB遮盖采用`Hackintool`生成`SSDT-UIAC.aml, SSDT-USBX.aml `，它位于`/CLOVER/ACPI/patched`
 * 其它 `ACPI` 补丁修复采用 `hotpatch` 方式，文件位于 `/CLOVER/ACPI/patched`
 * 电池hotpatch补丁显示电池状态正常
 * 触摸板4指手势正常
 * fn键可用5个功能 num键(部分情况可用 如终端)可用 
-
-### 系统截图
 
 ### HIDPI   [开启方法](https://github.com/xzhih/one-key-hidpi)
 ``` bash
@@ -53,3 +51,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master
 ### sh文件夹下camera.sh用于睡眠后重新开启摄像头 huancun.ch用于重建缓存 (需要时终端执行)
 
 ### 触摸板由[@penghubingzhou](https://github.com/penghubingzhou)大佬驱动(远景触摸群群友[@xc2333](https://github.com/Xc2333)帮忙改成hotpatch)
+
+### 系统截图
+
+![1](pic/1.png)
+![1](pic/2.png)
+![1](pic/3.png)
+![1](pic/4.png)
+![1](pic/5.png)
+![1](pic/6.png)
+![1](pic/7.png)
+![1](pic/8.png)
+![1](pic/9.png)
