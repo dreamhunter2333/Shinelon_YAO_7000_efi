@@ -34,7 +34,6 @@
 * 无线网卡更换为bcm94352zae
 * 显示器亮度调节正常(重启可保存) 
 * USB遮盖采用`Hackintool`生成`SSDT-UIAC.aml, SSDT-USBX.aml `，它位于`/CLOVER/ACPI/patched`
-* 添加PCI设备信息
 * 其它 `ACPI` 补丁修复采用 `hotpatch` 方式，文件位于 `/CLOVER/ACPI/patched`
 * 电池hotpatch补丁显示电池状态正常
 * 触摸板手势正常
