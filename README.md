@@ -27,7 +27,7 @@
 ### CLOVER
 
 * 支持Mojave
-* CPU原生支持，变频正常
+* CPU原生支持，变频正常(最低800Mhz)
 * 睡眠唤醒(键盘电源键唤醒)正常
 * 显卡原生支持，采用`Lilu+WhateverGreen`通过`Clover/device/Properties`方式注入
 * 声卡为ALC269VC，使用 `AppleALC` ，layout-id:8，通过`Clover/device/Properties`方式注入
