@@ -39,6 +39,12 @@
 * 触摸板4指手势正常
 * fn键可用5个功能 num键(部分情况可用 如终端)可用 
 
+### 调整 macOS CPU性能
+[使用方法](https://github.com/daliansky/XiaoMi-Pro/blob/master/one-key-cpufriend/README_CN.md)
+``` bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro/master/one-key-cpufriend/one-key-cpufriend_cn.sh)"
+```
+
 ### HIDPI   [开启方法](https://github.com/xzhih/one-key-hidpi)
 ``` bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
