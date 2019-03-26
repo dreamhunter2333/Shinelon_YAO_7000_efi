@@ -45,7 +45,8 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro/master/one-key-cpufriend/one-key-cpufriend_cn.sh)"
 ```
 
-### HIDPI   [开启方法](https://github.com/xzhih/one-key-hidpi)
+### HIDPI   
+[开启方法](https://github.com/xzhih/one-key-hidpi)
 ``` bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
 ```
