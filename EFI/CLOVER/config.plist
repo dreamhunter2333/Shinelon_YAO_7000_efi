@@ -726,7 +726,7 @@
 				<key>Comment</key>
 				<string>disable USB Port Limit Patch (PMheart) for 10.14 beta2</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPD4MDBQAA
@@ -746,7 +746,7 @@
 				<key>Comment</key>
 				<string>USB port limit patch 10.14.x modify by DalianSky(credit ydeng)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPDw==
@@ -766,7 +766,7 @@
 				<key>Comment</key>
 				<string>USB Port limit patch 10.14.x modify by DalianSky(credits PMheart)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g/sPDw==
@@ -786,7 +786,7 @@
 				<key>Comment</key>
 				<string>USB port limit patch</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g+MP0w==

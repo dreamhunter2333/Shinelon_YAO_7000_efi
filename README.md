@@ -14,7 +14,7 @@
 | 操作系统 | macOS Mojave 18D42                                   |
 | 处理器   | 英特尔 Core i5-8300H @ 2.30GHz 四核                   |
 | 内存     | 16 GB ( 镁光 DDR4 2666MHz )                           |
-| 硬盘     | INTEL 545S (256 GB / 固态硬盘 )                       |
+| 硬盘     | INTEL 760P (256 GB / 固态硬盘 )                       |
 | 显卡     | 英特尔 UHD Graphics 630 (platform-id:0x3E9B0000)       |
 | 显示器   | 京东方 BOE  1920x1080 (15.6 英寸)                      |
 | 声卡     | ALC269 (layout-id:8)                                 |
@@ -27,7 +27,7 @@
 ### CLOVER
 
 * 支持Mojave
-* CPU原生支持，变频正常
+* CPU原生支持，变频正常(最低800Mhz)
 * 睡眠唤醒(键盘电源键唤醒)正常
 * 显卡原生支持，采用`Lilu+WhateverGreen`通过`Clover/device/Properties`方式注入
 * 声卡为ALC269VC，使用 `AppleALC` ，layout-id:8，通过`Clover/device/Properties`方式注入
@@ -39,14 +39,27 @@
 * 触摸板4指手势正常
 * fn键可用5个功能 num键(部分情况可用 如终端)可用 
 
-### HIDPI   [开启方法](https://github.com/xzhih/one-key-hidpi)
+### 定制usb
+[定制usb教程](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
+
+### 调整 macOS CPU性能
+[使用方法](https://github.com/daliansky/XiaoMi-Pro/blob/master/one-key-cpufriend/README_CN.md)
+``` bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro/master/one-key-cpufriend/one-key-cpufriend_cn.sh)"
+```
+
+### HIDPI   
+[开启方法](https://github.com/xzhih/one-key-hidpi)
 ``` bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
 ```
  **感谢 @[冰水加劲Q](https://github.com/xzhih)**
 
 ### 内置网卡无解 
-[dw1560驱动教程](https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html) [rehanman-OS-X-BrcmPatchRAM](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/) [rehanman-OS-X-Fake-PCI-ID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/) [acidanthera-AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)
+[dw1560驱动教程](https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html) \
+[rehanman-OS-X-BrcmPatchRAM](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/) \
+[rehanman-OS-X-Fake-PCI-ID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/) \
+[acidanthera-AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)
 
 ### sh文件夹下camera.sh用于睡眠后重新开启摄像头 huancun.ch用于重建缓存 (需要时终端执行)
 
