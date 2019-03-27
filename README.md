@@ -14,7 +14,7 @@
 | 操作系统 | macOS Mojave 18D42                                   |
 | 处理器   | 英特尔 Core i5-8300H @ 2.30GHz 四核                   |
 | 内存     | 16 GB ( 镁光 DDR4 2666MHz )                           |
-| 硬盘     | INTEL 545S (256 GB / 固态硬盘 )                       |
+| 硬盘     | INTEL 760P (256 GB / 固态硬盘 )                       |
 | 显卡     | 英特尔 UHD Graphics 630 (platform-id:0x3E9B0000)       |
 | 显示器   | 京东方 BOE  1920x1080 (15.6 英寸)                      |
 | 声卡     | ALC269 (layout-id:8)                                 |
@@ -38,6 +38,9 @@
 * 电池hotpatch补丁显示电池状态正常
 * 触摸板4指手势正常
 * fn键可用5个功能 num键(部分情况可用 如终端)可用 
+
+### 定制usb
+[定制usb教程](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
 
 ### 调整 macOS CPU性能
 [使用方法](https://github.com/daliansky/XiaoMi-Pro/blob/master/one-key-cpufriend/README_CN.md)
