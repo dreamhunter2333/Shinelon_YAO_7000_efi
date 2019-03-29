@@ -14,7 +14,7 @@
 | 操作系统 | macOS Mojave 18D42                                   |
 | 处理器   | 英特尔 Core i5-8300H @ 2.30GHz 四核                   |
 | 内存     | 16 GB ( 镁光 DDR4 2666MHz )                           |
-| 硬盘     | INTEL 760P (256 GB / 固态硬盘 )                       |
+| 硬盘     | INTEL 760P (256 GB / NVME固态硬盘 )                       |
 | 显卡     | 英特尔 UHD Graphics 630 (platform-id:0x3E9B0000)       |
 | 显示器   | 京东方 BOE  1920x1080 (15.6 英寸)                      |
 | 声卡     | ALC269 (layout-id:8)                                 |
@@ -27,13 +27,13 @@
 ### CLOVER
 
 * 支持Mojave
-* CPU原生支持，变频正常(最低800Mhz)
+* CPU原生支持，变频正常(最低800Mhz) 调整性能教程在后方
 * 睡眠唤醒(键盘电源键唤醒)正常
 * 显卡原生支持，采用`Lilu+WhateverGreen`通过`Clover/device/Properties`方式注入
 * 声卡为ALC269VC，使用 `AppleALC` ，layout-id:8，通过`Clover/device/Properties`方式注入
 * 无线网卡更换为bcm94352zae(驱动教程在后面)
 * 显示器亮度调节正常(重启可保存) 
-* USB遮盖采用`Hackintool`生成`SSDT-UIAC.aml, SSDT-USBX.aml `，它位于`/CLOVER/ACPI/patched`
+* USB请自行采用`Hackintool`定制（教程在后方）
 * 其它 `ACPI` 补丁修复采用 `hotpatch` 方式，文件位于 `/CLOVER/ACPI/patched`
 * 电池hotpatch补丁显示电池状态正常
 * 触摸板4指手势正常
@@ -56,6 +56,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master
  **感谢 @[冰水加劲Q](https://github.com/xzhih)**
 
 ### 内置网卡无解 
+注意 换网卡可能需要drop dmar, dart =0之类 请根据网卡型号自行驱动
 [dw1560驱动教程](https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html) \
 [rehanman-OS-X-BrcmPatchRAM](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/) \
 [rehanman-OS-X-Fake-PCI-ID](https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads/) \
