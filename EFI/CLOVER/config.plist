@@ -306,30 +306,30 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _Q11 to _XQ11</string>
+					<string>change _Q14 to XQ14</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					X1ExMQ==
+					X1ExNA==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFExMQ==
+					WFExNA==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _Q12 to _XQ12</string>
+					<string>change _Q15 to XQ15</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					X1ExMg==
+					X1ExNQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFExMg==
+					WFExNQ==
 					</data>
 				</dict>
 				<dict>
