@@ -4,7 +4,9 @@
 
 # Shinalon YAO 7000 efi  for macOS Mojave
 
-这是我使用的 炫龙 耀7000 的CLOVER引导文件
+这是我使用的 炫龙 耀7000 的CLOVER引导文件  \
+
+驱动dw1560
 
 ### 电脑配置
 
