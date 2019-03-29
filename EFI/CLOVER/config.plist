@@ -405,8 +405,6 @@
 	<dict>
 		<key>Arguments</key>
 		<string>applbkl=0 -lilubetaall -alcbeta</string>
-		<key>DefaultVolume</key>
-		<string>macos</string>
 		<key>Legacy</key>
 		<string>LegacyBiosDefault</string>
 		<key>Log</key>
@@ -824,7 +822,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02842501GUJP4FA8</string>
+		<string>C02850200GUJP4FCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -856,9 +854,9 @@
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02XK5ZFKGYG</string>
+		<string>C02XTXYXKGYG</string>
 		<key>SmUUID</key>
-		<string>F0DBBA6E-E6F8-4F49-A88C-95BB8C1DCBDF</string>
+		<string>1DE0E392-1218-40A1-9FE8-4BEFC8E51151</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
