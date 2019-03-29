@@ -1,7 +1,5 @@
 # Shinalon_YAO_7000_efi 
 
-# 炫龙 耀7000 EFI 黑苹果
-
 # Shinalon YAO 7000 efi  for macOS Mojave
 
 [English](README_EN.md) | [中文](README.md)
