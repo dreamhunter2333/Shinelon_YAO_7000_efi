@@ -22,7 +22,9 @@ Hackintosh your Shinalon YAO 7000
 
 ### INSTALL
 
-直接使用黑果小兵博客中的镜像进行安装：[【黑果小兵】macOS Mojave 10.14.3 18D42 正式版 with Clover 4859原版镜像](https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html)
+ **replace efi in the dmg with efi in this repo**
+ 
+use[【黑果小兵】macOS Mojave 10.14.3 18D42 正式版 with Clover 4859原版镜像](https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html)
 
 ### CLOVER
 
