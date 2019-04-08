@@ -8,6 +8,12 @@
 
 这是我使用的 炫龙 耀7000 的CLOVER引导文件
 
+### 定制usb
+[定制usb教程](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
+
+### 调整 macOS CPU性能
+[使用方法](https://github.com/daliansky/XiaoMi-Pro/blob/master/one-key-cpufriend/README_CN.md)
+
 ### 电脑配置
 
 | 规格     | 详细信息                                                |
@@ -42,6 +48,7 @@
 * 电池hotpatch补丁显示电池状态正常
 * 触摸板4指手势正常
 * fn键可用 fn+f1睡眠，fn+f2锁win键，fn+f3打印， fn + f11/f12为 f14 f15, fn键盘灯音量硬件支持  num键(部分情况可用 如终端)可用 
+* 独显1050ti 无法驱动 hdmi为独显输出 一并失效
 
 ### 定制usb
 [定制usb教程](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
