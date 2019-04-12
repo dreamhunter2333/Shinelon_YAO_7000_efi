@@ -1,6 +1,9 @@
 # Shinalon_YAO_7000_efi 
 
 # 炫龙 耀7000 EFI 黑苹果 HACKINTOSH
+![img](https://img.shields.io/github/stars/jinmu333/Shinalon_YAO_7000_efi.svg?logoColor=blue&style=for-the-badge)
+![img](https://img.shields.io/github/forks/jinmu333/Shinalon_YAO_7000_efi.svg?logoColor=blue&style=for-the-badge)
+![img](https://img.shields.io/github/last-commit/jinmu333/Shinalon_YAO_7000_efi.svg?color=blue&style=for-the-badge)
 
 # Shinalon YAO 7000 efi  for macOS Mojave
 
