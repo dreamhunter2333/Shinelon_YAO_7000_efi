@@ -4,6 +4,7 @@
 [![img](https://img.shields.io/github/stars/jinmu333/Shinalon_YAO_7000_efi.svg?logoColor=blue&style=for-the-badge)
 ![img](https://img.shields.io/github/forks/jinmu333/Shinalon_YAO_7000_efi.svg?logoColor=blue&style=for-the-badge)
 ![img](https://img.shields.io/github/last-commit/jinmu333/Shinalon_YAO_7000_efi.svg?color=blue&style=for-the-badge)](https://github.com/jinmu333/Shinalon_YAO_7000_efi)
+[![img](https://img.shields.io/badge/link-996.icu-red.svg?style=for-the-badge&logo=appveyor)](https://github.com/996icu/996.ICU)
 
 # Shinalon YAO 7000 efi  for macOS Mojave
 
