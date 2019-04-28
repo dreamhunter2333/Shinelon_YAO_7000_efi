@@ -33,7 +33,7 @@ use[【黑果小兵】macOS Mojave 10.14.3 18D42 正式版 with Clover 4859原�
 * 睡眠唤醒(键盘电源键唤醒)正常
 * 显卡原生支持，采用`Lilu+WhateverGreen`通过`Clover/device/Properties`方式注入
 * 声卡为ALC269VC，仿冒声卡解决偶尔启动无声，使用 `AppleALC` ，layout-id:8，通过`Clover/device/Properties`方式注入
-* 无线网卡更换为bcm94352zae(驱动教程在后面)
+* 无线网卡更换为BCM94360CS2
 * 显示器亮度调节正常(重启可保存) 
 * USB请自行采用`Hackintool`定制（教程在后方）
 * 其它 `ACPI` 补丁修复采用 `hotpatch` 方式，文件位于 `/CLOVER/ACPI/patched`
