@@ -16,7 +16,7 @@ Hackintosh your Shinalon YAO 7000
 | Memory              | 16 GB ( 镁光 DDR4 2666MHz )                           |
 | Hard Disk           | INTEL 760P (256 GB / NVME )                       |
 | Integrated Graphics | INTEL UHD Graphics 630 (platform-id:0x3E9B0000)       |
-| Monitor             |  BOE  1920x1080 (15.6 英寸)                      |
+| Monitor             |  BOE  1920x1080 (15.6 )                      |
 | Sound Card          | Realtek ALC269 (layout-id:8)                     |
 | Wireless Card       | INTEL 9462NGW                                       |
 
@@ -32,14 +32,15 @@ use[【黑果小兵】macOS Mojave 10.14.3 18D42 正式版 with Clover 4859原�
 * CPU原生支持，变频正常(最低800Mhz) 调整性能教程在后方
 * 睡眠唤醒(键盘电源键唤醒)正常
 * 显卡原生支持，采用`Lilu+WhateverGreen`通过`Clover/device/Properties`方式注入
-* 声卡为ALC269VC，使用 `AppleALC` ，layout-id:8，通过`Clover/device/Properties`方式注入
+* 声卡为ALC269VC，仿冒声卡解决偶尔启动无声，使用 `AppleALC` ，layout-id:8，通过`Clover/device/Properties`方式注入
 * 无线网卡更换为bcm94352zae(驱动教程在后面)
 * 显示器亮度调节正常(重启可保存) 
 * USB请自行采用`Hackintool`定制（教程在后方）
 * 其它 `ACPI` 补丁修复采用 `hotpatch` 方式，文件位于 `/CLOVER/ACPI/patched`
 * 电池hotpatch补丁显示电池状态正常
-* 触摸板4指手势正常
-* fn键可用5个功能 num键(部分情况可用 如终端)可用 
+* 触摸板4指手势正常 单指第五次滑动失效
+* fn键可用 fn+f1睡眠，fn+f2锁win键，fn+f3打印， fn + f11/f12为 f14 f15, fn键盘灯音量硬件支持  num键(部分情况可用 如终端)可用 
+* 独显1050ti 无法驱动 hdmi为独显输出 一并失效
 
 ### 定制usb
 [定制usb教程](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
