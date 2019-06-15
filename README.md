@@ -1,4 +1,4 @@
-# Shinalon_YAO_7000_efi 
+# Shinelon_YAO_7000_efi 
 
 # 炫龙 耀7000 EFI 黑苹果 HACKINTOSH
 [![img](https://img.shields.io/github/stars/jinmu333/Shinalon_YAO_7000_efi.svg?logoColor=blue&style=for-the-badge)
