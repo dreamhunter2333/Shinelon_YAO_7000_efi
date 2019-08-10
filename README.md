@@ -1,24 +1,33 @@
-# Shinelon_YAO_7000_efi 
+# Shinelon_YAO_7000_efi
 
-# 炫龙 耀7000 EFI 黑苹果 HACKINTOSH
+## 炫龙 耀7000 EFI 黑苹果 HACKINTOSH
+
 [![img](https://img.shields.io/github/stars/jinmu333/Shinalon_YAO_7000_efi.svg?logoColor=blue&style=for-the-badge)
 ![img](https://img.shields.io/github/forks/jinmu333/Shinalon_YAO_7000_efi.svg?logoColor=blue&style=for-the-badge)
 ![img](https://img.shields.io/github/last-commit/jinmu333/Shinalon_YAO_7000_efi.svg?color=blue&style=for-the-badge)](https://github.com/jinmu333/Shinalon_YAO_7000_efi)
 [![img](https://img.shields.io/badge/link-996.icu-red.svg?style=for-the-badge)](https://github.com/996icu/996.ICU)
 
-# Shinelon YAO 7000 efi  for macOS Mojave
+## Shinelon YAO 7000 efi  for macOS Mojave
 
 [English](README_EN.md) | [中文](README.md)
 
 这是我使用的 炫龙 耀7000 的CLOVER引导文件
 
+### 下载Clover
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/jinmu333/Shinelon_YAO_7000_efi/efi/sh/clover_download.sh)"
+```
+
 ### 定制usb
+
 [定制usb教程](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
 
 ### 调整 macOS CPU性能
+
 [使用方法](https://github.com/daliansky/XiaoMi-Pro/blob/master/one-key-cpufriend/README_CN.md)
 
-### 电脑配置
+## 电脑配置
 
 | 规格     | 详细信息                                                |
 | -------- | ----------------------------------------------------- |
@@ -32,13 +41,12 @@
 | 声卡     | ALC269 (layout-id:8)                                 |
 | 网卡     | 英特尔网卡已更换为BCM94360CS2                     |
 
-### 安装镜像
+## 安装镜像
 
 **将镜像中efi替换为本仓库的EFI文件夹**
-
 直接使用黑果小兵博客中的镜像进行安装：[【黑果小兵】macOS Mojave 10.14.3 18D42 正式版 with Clover 4859原版镜像](https://blog.daliansky.net/macOS-Mojave-10.14.3-18D42-official-version-with-Clover-4859-original-image.html)
 
-### CLOVER
+## CLOVER
 
 * 支持Mojave
 * CPU原生支持，变频正常(最低800Mhz) 调整性能教程在后方
@@ -54,23 +62,30 @@
 * fn键可用 fn+f1睡眠，fn+f2锁win键，fn+f3打印， fn + f11/f12为 f14 f15, fn键盘灯音量硬件支持  num键(部分情况可用 如终端)可用 
 * 独显1050ti 无法驱动 hdmi为独显输出 一并失效
 
-### 定制usb
+## 定制USB
+
 [定制usb教程](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html)
 
-### 调整 macOS CPU性能
+## 调整 MACOS CPU性能
+
 [使用方法](https://github.com/daliansky/XiaoMi-Pro/blob/master/one-key-cpufriend/README_CN.md)
+
 ``` bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro/master/one-key-cpufriend/one-key-cpufriend_cn.sh)"
 ```
 
-### HIDPI   
+## HIDPI
+
 [开启方法](https://github.com/xzhih/one-key-hidpi)
+
 ``` bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
 ```
+
  **感谢 @[冰水加劲Q](https://github.com/xzhih)**
 
-### 内置网卡无解 
+## 内置网卡无解
+
 * 注意 换网卡可能需要drop dmar, dart =0之类 请根据网卡型号自行驱动 
 * [dw1560驱动教程](https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html) 
 * [rehanman-OS-X-BrcmPatchRAM](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/) 
@@ -78,13 +93,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master
 * [acidanthera-AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases)
 
 ### sh
+
 * sh文件夹下camera.sh用于睡眠后重新开启摄像头
 * huancun.ch用于重建缓存 (需要时终端执行)
 
-### 触摸板
+## 触摸板
+
 * 触摸板由[@penghubingzhou](https://github.com/penghubingzhou)大佬驱动(远景触摸群群友[@xc2333](https://github.com/Xc2333)帮忙改成hotpatch)
 
-### 系统截图
+## 系统截图
 
 ![1](pic/1.png)
 ![1](pic/2.png)
