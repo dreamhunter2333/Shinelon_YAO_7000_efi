@@ -26,7 +26,7 @@ function clean() {
 }
 # 如果网络异常，退出
 function networkWarn() {
-  echo -e "[ ${RED}ERROR${OFF} ]: 下载CPUFriend失败, 请检查网络状态!"
+  echo -e "[ ${RED}ERROR${OFF} ]: 下载失败, 请检查网络状态!"
   clean
   exit 1
 }
