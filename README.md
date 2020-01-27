@@ -58,7 +58,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/jinmu333/Shinelon_YAO_7000
 * USB请自行采用`Hackintool`定制（教程在后方）
 * 其它 `ACPI` 补丁修复采用 `hotpatch` 方式，文件位于 `/CLOVER/ACPI/patched`
 * 电池hotpatch补丁显示电池状态正常
-* 触摸板4指手势正常 单指第五次滑动失效
+* 触摸板正常，支持原生手势
 * fn键可用 fn+f1睡眠，fn+f2锁win键，fn+f3打印， fn + f11/f12为 f14 f15, fn键盘灯音量硬件支持  num键(部分情况可用 如终端)可用 
 * 独显1050ti 无法驱动 hdmi为独显输出 一并失效
 
